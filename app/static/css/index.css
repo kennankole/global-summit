@@ -2,8 +2,13 @@
 	margin: 0;
 	padding: 0;
 	@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-	@import url('http://fonts.cdnfonts.com/css/cocogoose');
-	font-family: 'COCOGOOSE','Lato', sans-serif;
+	
+}
+
+body {
+	@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@300&family=Source+Sans+Pro&display=swap');
+	/* font-family: 'Poppins', sans-serif; */
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 /*++++++++++++++++++++DESKTOP NAVIGATION MENU++++++++++++++++++++++++*/
@@ -19,7 +24,6 @@ nav {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	border: 1px solid black;
 	width: 100vw;
 }
 
@@ -78,10 +82,14 @@ nav {
 
 .text h3 {
 	font-size: 14px;
-	font-family: 'COCOGOOSE','Lato', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 /*++++++++++++++++++++++HEADLINE SECTION+++++++++++++++++++++++++++++++++++*/
+footer {
+	display: flex;
+	flex-direction: column;
+}
 .headline-section {
 	background: url(../images/main_big.png) no-repeat center center;
 	background-size: cover;
@@ -130,11 +138,13 @@ nav {
 	line-height: 30px;
 	font-size: 32px;
 	padding-top: 50px;
+	font-family: 'Poppins', sans-serif;
 }
 
 .headline-date h5 {
 	font-size: 18px;
 	padding-top: 10px;
+	font-family: 'Poppins', sans-serif;
 }
 
 /*++++++++++++++++++++++++++++PROGRAM SECTION++++++++++++++++++++++++++++++++*/
@@ -185,12 +195,14 @@ nav {
 	color: #EC5242;
 	font-size: 18px;
 	padding: 7px;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .podium > p {
 	padding: 10px 0;
 	font-size: 15px;
 	color: white;
+	font-family: 'Poppins', sans-serif;
 }
 
 
@@ -224,6 +236,10 @@ nav {
 	padding: 10px;
 }
 
+.speaker-inner.lone {
+	margin-top: -50px;
+}
+
 .speaker-name {
 	font-size: 18px;
 }
@@ -242,3 +258,76 @@ nav {
 #speaker-title {
 	margin-top: 60px;
 }
+
+/*+++++++++++++++++++++++++++++FOOTER SECTION+++++++++++++++++++++++++++++++*/
+.footer-upper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #272a31;
+	flex-direction: column;
+	height: 150px;
+}
+
+.footer-patners {
+	display: flex;
+	gap: 30px;
+	padding: 30px;
+}
+
+.footer-lower {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	height: 150px;
+}
+.footer-logo {
+	padding: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.lower-footer-para {
+	width: 450px;
+	font-size: 15px;
+	padding: 20px;
+}
+
+#mozilla {
+	font-weight: 1000;
+	font-size: 32px;
+	color: #d3d3d3;
+}
+
+#google {
+	font-size: 32px;
+	color: #999996;
+}
+
+#naver {
+	text-transform: uppercase;
+	font-size: 28px;
+	font-weight: 1000;
+	color:  #999996;
+}
+
+#dmk {
+	font-size: 18px;
+	font-weight: 800;
+	color:  #999996;
+}
+
+#airbnb {
+	font-size: 19px;
+	color:  #999996;
+	line-height: 20px;
+	padding: 10px;
+}
+
+#footer-title {
+	font-size: 18px;
+	color:  #999996;
+}
+
+
