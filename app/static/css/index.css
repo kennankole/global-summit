@@ -1,5 +1,244 @@
 * {
 	margin: 0;
 	padding: 0;
+	@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+	@import url('http://fonts.cdnfonts.com/css/cocogoose');
+	font-family: 'COCOGOOSE','Lato', sans-serif;
+}
+
+/*++++++++++++++++++++DESKTOP NAVIGATION MENU++++++++++++++++++++++++*/
+a {
+	color: black;
+}
+li, a {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid black;
+	width: 100vw;
+}
+
+.upper-nav {
+	width: 100vw;
+	background-color: #272a31;
+	flex: 1;
+}
+
+.upper {
+	display: flex;
+	gap: 15px;
+	padding: 5px;
+	margin-left: 820px;
+}
+
+.fa-brands,
+.menu-link.up {
+	color: #fff;
+}
+
+
+.lower-nav {
+	background-color: #FDFDF7;
+	gap: 30px;
+	display: flex;
+	width: 900px;
+	padding: 10px;
+}
+
+
+.lower-nav-links {
+	display: flex;
+	align-items: center;
+	padding: 15px;
+	gap: 15px;
+}
+
+.menu-link.first {
+	color: #EC5242;
+}
+
+.menu-link.last {
+	color: #EC5242;
+	border: 3px solid #EC5242;
+	padding: 10px;
+}
+
+.logo	{
+	margin-right: auto;
+	padding: 0 10px;
+	display: flex;
+	gap: 5px;
+	align-items: center;
+}
+
+.text h3 {
+	font-size: 14px;
+	font-family: 'COCOGOOSE','Lato', sans-serif;
+}
+
+/*++++++++++++++++++++++HEADLINE SECTION+++++++++++++++++++++++++++++++++++*/
+.headline-section {
+	background: url(../images/main_big.png) no-repeat center center;
+	background-size: cover;
+	height: 750px;
+}
+
+.headline-container {
+	display: flex;
+	flex-direction: column;
+	width: 900px;
 	margin: 0 auto;
+	padding-top: 80px;
+}
+
+.greetings {
+	font-size: 28px;
+	color: #EC5242;
+	font-weight: 500;
+	padding: 10px;
+}
+
+.headline-heading {
+	text-transform: uppercase;
+	color: #EC5242;
+	font-size: 39px;
+	padding: 10px;
+}
+
+.headline-para {
+	width: 550px;
+	line-height: 30px;
+	border: 3px solid #FDFDF7;
+	background-color: #d3d3d3;
+	padding: 10px;
+}
+
+.headline-para > p {
+	padding: 10px;
+	padding-top: 20px;
+}
+
+.headline-date {
+	margin-bottom: 100px;
+}
+.headline-date > h3 {
+	line-height: 30px;
+	font-size: 32px;
+	padding-top: 50px;
+}
+
+.headline-date h5 {
+	font-size: 18px;
+	padding-top: 10px;
+}
+
+/*++++++++++++++++++++++++++++PROGRAM SECTION++++++++++++++++++++++++++++++++*/
+.program-section {
+	background-image: radial-gradient(circle at 99% 33%, hsla(235,0%,48%,0.03) 0%, hsla(235,0%,48%,0.03) 37%,transparent 37%, transparent 100%),radial-gradient(circle at 46% 16%, hsla(235,0%,48%,0.03) 0%, hsla(235,0%,48%,0.03) 43%,transparent 43%, transparent 100%),radial-gradient(circle at 99% 25%, hsla(235,0%,48%,0.03) 0%, hsla(235,0%,48%,0.03) 22%,transparent 22%, transparent 100%),radial-gradient(circle at 57% 88%, hsla(235,0%,48%,0.03) 0%, hsla(235,0%,48%,0.03) 86%,transparent 86%, transparent 100%),radial-gradient(circle at 82% 78%, hsla(235,0%,48%,0.03) 0%, hsla(235,0%,48%,0.03) 22%,transparent 22%, transparent 100%),linear-gradient(90deg, rgb(0,0,0),rgb(0,0,0));
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	flex-direction: column;
+	height: 680px;
+}
+
+#program-heading {
+	margin-bottom: 100px;
+	box-sizing: border-box;
+}
+
+#program-footer {
+	margin-top: 100px;
+	text-transform: uppercase;
+	text-decoration: underline;
+	box-sizing: border-box;
+}
+
+
+.program-container {
+	display: flex;
+	color: wheat;
+	width: 900px;
+	border: 1px solid white;
+	padding: 10px;
+}
+
+.programs {
+	border: 1px solid wheat;
+	margin: 3px;
+	text-align: center;
+}
+
+.podium {
+	padding: 10px;
+	align-items: center;
+	background-image: radial-gradient(circle at 99% 33%, hsla(235,0%,48%,0.03) 0%, hsla(235,0%,48%,0.03) 37%,transparent 37%, transparent 100%),radial-gradient(circle at 46% 16%, hsla(235,0%,48%,0.03) 0%, hsla(235,0%,48%,0.03) 43%,transparent 43%, transparent 100%),radial-gradient(circle at 99% 25%, hsla(235,0%,48%,0.03) 0%, hsla(235,0%,48%,0.03) 22%,transparent 22%, transparent 100%),radial-gradient(circle at 57% 88%, hsla(235,0%,48%,0.03) 0%, hsla(235,0%,48%,0.03) 86%,transparent 86%, transparent 100%),radial-gradient(circle at 82% 78%, hsla(235,0%,48%,0.03) 0%, hsla(235,0%,48%,0.03) 22%,transparent 22%, transparent 100%),linear-gradient(90deg, rgb(40,37,37),rgb(40,37,37));
+}
+
+.podium > h2 {
+	color: #EC5242;
+	font-size: 18px;
+	padding: 7px;
+}
+
+.podium > p {
+	padding: 10px 0;
+	font-size: 15px;
+	color: white;
+}
+
+
+/*+++++++++++++++++++++++++++++++++++SPEAKERS SECTION++++++++++++++++++++++++++++++++*/
+.speakers-section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.speaker-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.speaker-row {
+	display: flex;
+	width: 900px;
+	padding: 20px;
+	align-items: center;
+}
+
+.speaker-text {
+	padding: 15px;
+}
+
+.speaker-inner {
+	display: flex;
+	padding: 10px;
+}
+
+.speaker-name {
+	font-size: 18px;
+}
+
+.speaker-para {
+	font-size: 15px;
+	line-height: 20px;
+	padding: 10px 0;
+}
+
+.speaker-para.ital {
+	font-style: italic;
+	color: #EC5242;
+}
+
+#speaker-title {
+	margin-top: 60px;
 }
