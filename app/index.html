@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./static/css/index.css">
+		<script src="./static/js/script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -24,8 +25,8 @@
 						<div class="logo">
 								<a href="#"><img src="./static/images/ignite.svg" alt="" height="50" width="50"></a>
 								<div class="text">
-									<h3>DevOps MeetUp</h3>
-									<h3>Nairobi Summit</h3>
+									<h3>Ujuzi.io&trade;</h3>
+									<h3 id="nrb-summit">DevOps MeetUp</h3>
 								</div>
 						</div>
 						<div class="lower-menu">
@@ -40,28 +41,43 @@
 						</div>
 					</div>
         </nav>
+				<nav class="mobile-nav">
+					<div id="myNav" class="lower-menu-mobile">
+						<ul class="lower-nav-links">
+							<li><a href="#" class="menu-link-lower">About</a></li>
+							<li><a href="#" class="menu-link-lower">Program</a></li>
+							<li><a href="#" class="menu-link-lower">Join</a></li>
+							<li><a href="#" class="menu-link-lower">Sponsor</a></li>
+							<li><a href="#" class="menu-link-lower">News</a></li>
+							<li><a href="#" class="menu-link-lower">CC Campaign</a></li>
+						</ul>
+					</div>
+					<ul class="humberger-menu">
+						<li class="menu-link-bar first"></li>
+						<li class="menu-link-bar second"></li>
+						<li class="menu-link-bar third"></li>
+					</ul>
+				</nav>
     </header>
-
 		<main>
 			<!--Headline Section-->
 			<section class="headline-section">
+
 				<div class="headline-container">
 					<div class="greetings">
-						<h4>"Hello! Sharing world"</h4>
+						<h2>Welcome to Nairobi</h2>
 					</div>
 					<div class="headline-heading">
-						<h1>Creative Commons global summit <br> 2015</h1>
+						<p>NAIROBI DevOps MEETUP<br>2015</p>
 					</div>
 					<div class="headline-para">
-						<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-							sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-							Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-							nisi ut aliquip ex ea commodo consequat. 
+						<p>
+							A conglomeration of DevOps bigwigs, for the first time ever in Nairobi, coming to share their knowledge.
 						</p>
 					</div>
 					<div class="headline-date">
 						<h3>2015.10.15(THU)~16(FRI)</h3>
-						<h5>@ National Meseum of Korea, Art Center Nabi and more</h5>
+						<h5>@ KICC Nairobi, Conference center and more</h5>
 					</div>
 				
 				</div>
@@ -69,167 +85,82 @@
 
 			<!--Program section-->
 			<section class="program-section">
-				<h1 id="program-heading">Main Program</h1>
-				<div class="program-container">
-
-					<div class="programs">
-						<div class="podium">
-							<img src="./static/images/program_icon_01.png" alt="">
-							<h2>Lecture</h2>
-						<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-							</p>
-						</div>
-					</div>
-
-					<div class="programs">
-						<div class="podium">
-							<img src="./static/images/program_icon_02.png" alt="">
-							<h2>CC Exhibition</h2>
-							<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-							</p>
-						</div>
-					</div>
-					<div class="programs">
-						<div class="podium">
-							<img src="./static/images/program_icon_03.png" alt="">
-							<h2>Forum</h2>
-							<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-							</p>
-						</div>
-					</div>
-					<div class="programs">
-						<div class="podium">
-							<img src="./static/images/program_icon_04.png" alt="">
-							<h2>Worshop</h2>
-							<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-							</p>
-						</div>
-					</div>
-					<div class="programs">
-						<div class="podium">
-							<img src="./static/images/program_icon_05.png" alt="">
-							<h2>Ignite</h2>
-							<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-							</p>
-						</div>
-					</div>
+				<div>
+					<h1 id="program-heading">Main Program</h1>
+					<div class="orange-line"></div>
 				</div>
-				<h3 id="program-footer">See the whole program</h3>
+					<div class="program-container">
+						<div class="programs">
+							<div class="podium">
+								<img src="./static/images/program_icon_01.png" alt="">
+								<h2>Lecture</h2>
+							<p>
+								Listen to renown DevOps speakers from big tech companies.  
+								</p>
+							</div>
+						</div>
+
+						<div class="programs">
+							<div class="podium">
+								<img src="./static/images/program_icon_02.png" alt="">
+								<h2>CC Exhibition</h2>
+								<p>
+									Demos of the emerging trends in DevOps. 
+								</p>
+							</div>
+						</div>
+						<div class="programs">
+							<div class="podium">
+								<img src="./static/images/program_icon_03.png" alt="">
+								<h2>Forum</h2>
+								<p>
+									A chance to meet with tech enthusiasts from all over the world
+								</p>
+							</div>
+						</div>
+						<div class="programs">
+							<div class="podium">
+								<img src="./static/images/program_icon_04.png" alt="">
+								<h2>Worshop</h2>
+								<p>
+									Live demos on emerging trends in tech.
+								</p>
+							</div>
+						</div>
+						<div class="programs">
+							<div class="podium">
+								<img src="./static/images/program_icon_05.png" alt="">
+								<h2>Ignite</h2>
+								<p>
+									One on one chat with the leading minds in the field.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="lower-title">
+						<a href="#" id="program-footer">See the whole program</a>
+						
+					</div>
 			</section>
 
 			<!---Featured Speakers-->
-			<section class="speakers-section">
-			
-				<div class="speaker-container">
-					<h1 id="speaker-title">Featured Speakers</h1>
-					<div class="speaker-row">
-						<div class="speaker-inner">
-							<div class="speaker-img">
-								<img src="./static/images/speaker_01.png" alt="">
-							</div>
-							<div class="speaker-text">
-								<h3 class="speaker-name">Name</h3>
-								<p class="speaker-para ital">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-								<hr>
-								<p class="speaker-para">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-								</p>
-							</div>
-						</div>
-						<div class="speaker-inner lone">
-							<div class="speaker-img">
-								<img src="./static/images/speaker_02.png" alt="">
-							</div>
-							<div class="speaker-text">
-								<h3 class="speaker-name">Name</h3>
-								<hr>
-								<p class="speaker-para">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="speaker-row">
-						<div class="speaker-inner">
-							<div class="speaker-img">
-								<img src="./static/images/speaker_03.png" alt="">
-							</div>
-							<div class="speaker-text">
-								<h3 class="speaker-name">Name</h3>
-								<p class="speaker-para ital">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-								<hr>
-								<p class="speaker-para">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-								</p>
-							</div>
-						</div>
-
-						<div class="speaker-inner">
-							<div class="speaker-img">
-								<img src="./static/images/speaker_04.png" alt="">
-							</div>
-							<div class="speaker-text">
-								<h3 class="speaker-name">Name</h3>
-								<p class="speaker-para ital">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-								<hr>
-								<p class="speaker-para">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="speaker-row">
-						<div class="speaker-inner">
-							<div class="speaker-img">
-								<img src="./static/images/speaker_05.png" alt="">
-							</div>
-							<div class="speaker-text">
-								<h3 class="speaker-name">Name</h3>
-								<p class="speaker-para ital">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-								<hr>
-								<p class="speaker-para">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-								</p>
-							</div>
-						</div>
-						<div class="speaker-inner">
-							<div class="speaker-img">
-								<img src="./static/images/speaker_06.png" alt="">
-							</div>
-							<div class="speaker-text">
-								<h3 class="speaker-name">Name</h3>
-								<p class="speaker-para ital">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-								<hr>
-								<p class="speaker-para">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-								</p>
-							</div>
-						</div>
-					</div>
+			<section class="speakers-section" id="speakers-section">
+				<div class="speaker-heading">
+					<h3>Featured Speakers</h3>
+					<div class="orange-line"></div>
 				</div>
 			</section>
 
 			<footer>
+					
 				<div class="footer-upper">
 					<h1 id="footer-title">Patner</h1>
+					<div class="orange-line"></div>
 					<ul class="footer-patners">
-						<li><a href="#" id="mozilla">mozilla</a></li>
+						<li><a href="#" id="mozilla"> <i class="fa-brands fa-docker"></i>Docker</a></li>
 						<li><a href="#" id="google">Google</a></li>
-						<li><a href="#" id="naver">NAVER</a></li>
-						<li><a href="#" id="dmk">daumkakao</a></li>
+						<li><a href="#" id="naver"><i class="fa-brands fa-linux"></i></a></li>
+						<li><a href="#" id="dmk"><i class="fa-brands fa-aws"></i></a></li>
 						<li><a href="#" id="airbnb"><i class="fa-brands fa-airbnb"></i> airbnb</a></li>
 					</ul>
 				</div>
@@ -237,14 +168,13 @@
 					<div class="footer-logo">
 						<img src="./static/images/ignite.svg" alt="" height="50" width="50">
 						<div class="lower-footer-title">
+							<h4>Ujuzi.io&trade;</h4>
 							<h4>DevOps MeetUp</h4>
-							<h4>Nairobi Summit</h4>
 						</div>
 					</div>
 					<div class="lower-footer-para">
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-							sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							&copy;Ujuzi.io Technolgies&trade;. All Rights Reserved 2022.
 						</p>
 					</div>
 					</div>
