@@ -19,37 +19,37 @@ menuItem.forEach((n) => {
 
 const speakerCardSection = [
     {
-			image: '/app/static/images/speaker_01.png',
+			image: 'app/static/images/speaker_01.png',
 			name: 'Kesley Hightower',
 			occupation: 'Google DevOps Engineer',
 			bio: 'Kelsey Hightower is an American software engineer, developer advocate, and speaker known for his work with Kubernetes, open-source software, and cloud computing',
     },
 		{
-			image: '/app/static/images/speaker_02.png',
+			image: 'app/static/images/speaker_02.png',
 			name: 'Martin Fowler',
 			occupation: 'Founder ThoughtWorks',
 			bio: 'British software developer, author and international public speaker on software development, specialising in object-oriented analysis and design, UML, patterns, and agile software development methodologies, including extreme programming.',
     },
 		{
-			image: '/app/static/images/speaker_03.png',
+			image: 'app/static/images/speaker_03.png',
 			name: 'Rosalind Radcliffe',
 			occupation: 'Distinguished engineer, IBM',
 			bio: `Radcliffe has worked at IBM for over 30 years. Currently she's an IBM distinguished engineer working with external clients on DevOps transformations and working internally on IBM's Z organization. She is a regular speaker at the DevOps Enterprise Summit and other enterprise-oriented conferences.`,
     },
 		{
-			image: '/app/static/images/speaker_04.png',
+			image: 'app/static/images/speaker_04.png',
 			name: 'Jez Humble',
 			occupation: 'Founder and CTO, DevOps Research and Assessment',
 			bio: 'Humble is a co-author of the book Continuous Delivery, as well as Lean Enterprise and The DevOps Handbook. ',
     },
 		{
-			image: '/app/static/images/speaker_05.png',
+			image: 'app/static/images/speaker_05.png',
 			name: 'Jennifer Davis',
 			occupation: 'Senior systems engineer, Chef',
 			bio: 'Davis is a speaker at many DevOps conferences as well as an organizer for her local DevOpsDays. She has also worked at Yahoo as the team lead for its Sherpa cloud storage service.',
     },
 		{
-			image: '/app/static/images/speaker_06.png',
+			image: 'app/static/images/speaker_06.png',
 			name: 'Dave Farley',
 			occupation: 'Google DevOps Engineer',
 			bio: 'Farley is a significant thought leader in the DevOps community who co-authored the award-winning book Continuous Delivery with Jez Humble. He continues to speak and write frequently.',

@@ -99,7 +99,7 @@ nav {
 ##################################################################################
 */
 .headline-section {
-  background: url("../images/main_big.png") no-repeat center center;
+  background: url("./images/main_big.png") no-repeat center center;
   background-size: cover;
   height: 750px;
 }
@@ -155,7 +155,7 @@ nav {
 
 .headline-date > h2 {
   line-height: 30px;
-  font-size: 5vw;
+  font-size: 4vw;
   padding-top: 50px;
   color: #272a31;
   margin-bottom: 30px;
@@ -548,7 +548,7 @@ nav {
 	##########################################################
 	*/
   .headline-section {
-    background: url("../images/mobile_intro_bg.png") no-repeat center center;
+    background: url("./images/mobile_intro_bg.png") no-repeat center center;
     background-size: cover;
     height: 750px;
     width: 100%;
