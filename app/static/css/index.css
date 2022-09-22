@@ -113,17 +113,15 @@ nav {
 }
 
 .greetings {
-  font-size: 1.3rem;
+  font-size: 18px;
   color: #ec5242;
-
-  /* font-weight: 500; */
   padding: 10px;
   margin-bottom: 10px;
 }
 
 .headline-heading {
   padding: 16px;
-  font-size: 3rem;
+  font-size: 60px;
   font-weight: 900;
   line-height: 1.2;
   margin-bottom: 1rem;
@@ -145,25 +143,26 @@ nav {
   padding: 10px;
   padding-top: 20px;
   max-width: 100%;
-  font-size: 1rem;
+  font-size: 15px;
   font-weight: bold;
   color: #272a31;
 }
 
 .headline-date {
   margin-bottom: 100px;
-  padding: 10px;
+  padding: 0 10px;
 }
 
-.headline-date > h3 {
+.headline-date > h2 {
   line-height: 30px;
-  font-size: 28px;
+  font-size: 5vw;
   padding-top: 50px;
   color: #272a31;
+  margin-bottom: 30px;
 }
 
 .headline-date h5 {
-  font-size: 18px;
+  font-size: 1.3rem;
   padding-top: 10px;
   color: #272a31;
 }
@@ -567,7 +566,7 @@ nav {
 
   .headline-heading {
     padding: 0 40px;
-    font-size: 4vw;
+    font-size: 32px;
   }
 
   .headline-para {
