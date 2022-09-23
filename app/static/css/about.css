@@ -1,0 +1,121 @@
+/*
+##########################################################################
+#+++++++++++++++++++++++++++++FOOTER SECTION+++++++++++++++++++++++++++++#
+##########################################################################
+*/
+
+.footer-lower.about {
+  background-color: #272a31;
+}
+
+.lower-footer-title.about,
+.lower-footer-para.about {
+  color: #fff;
+}
+
+/*
+##########################################################################
+#+++++++++++++++++++++++++++++PAST MEETUPS SECTION+++++++++++++++++++++++#
+##########################################################################
+*/
+.past-devops-meetups {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  border: rgb(211 211 211 / 40%) 2px solid;
+}
+
+.past-text {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.past-text > h1 {
+  font-size: 2.5rem;
+  padding: 10px;
+  color: #272a31;
+}
+
+.past-text > p {
+  padding: 30px;
+  font-size: 1.2rem;
+  color: #272a31;
+}
+
+.past-meeting-imgs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px;
+}
+
+/*
+##########################################################################
+#++++++++++++++++++++++++++DEVOPS MEETUPS LOGO SECTION+++++++++++++++++++#
+##########################################################################
+*/
+.devops-meetup-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.devops-meetup-logo > h1 {
+  font-size: 2.5rem;
+  color: #272a31;
+  text-align: center;
+}
+
+.devops-meetup-logo > p {
+  font-size: 1.3rem;
+  color: #272a31;
+  max-width: 700px;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo.devops {
+  border: rgb(211 211 211 / 40%) 2px solid;
+  padding: 50px;
+  max-width: 300px;
+  margin: 30px;
+}
+
+.headline-heading.about > p {
+  text-align: center;
+}
+
+.headline-para.about {
+  margin: 0 auto;
+}
+
+.headline-para.about > p {
+  text-align: center;
+  color: #272a31;
+}
+
+.headline-date.about {
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #272a31;
+}
+
+.headline-date.about > a {
+  text-decoration: underline;
+  font-size: 15px;
+  font-weight: 700;
+  color: #272a31;
+  padding: 10px;
+}
