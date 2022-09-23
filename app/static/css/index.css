@@ -1,0 +1,708 @@
+@import "https://fonts.googleapis.com/css2?family=Lato&display=swap";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Lato, sans-serif;
+}
+
+/*
+#########################################################################
+#													DESKTOP NAVIGATION MENU												#
+#########################################################################
+*/
+
+a {
+  color: black;
+}
+
+li,
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.upper-nav {
+  width: 100%;
+  background-color: #272a31;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 15%;
+}
+
+.upper {
+  display: flex;
+  gap: 15px;
+  padding: 5px;
+}
+
+.fa-brands,
+.menu-link.up {
+  color: #fff;
+}
+
+.lower-nav {
+  background-color: #fdfdf7;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.lower-nav-links {
+  display: flex;
+  justify-content: center;
+  margin-right: 200px;
+  padding: 20px 0;
+}
+
+.menu-link.lower {
+  padding: 10px 12px;
+}
+
+.menu-link.first {
+  color: #ec5242;
+}
+
+.menu-link.last {
+  border: 3px solid #ec5242;
+  color: #ec5242;
+}
+
+.logo {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+}
+
+.text h3 {
+  font-size: 13px;
+  color: #272a31;
+  line-height: 10px;
+}
+
+/*
+##################################################################################
+# 														HEADLINE SECTION                                   #
+##################################################################################
+*/
+.headline-section {
+  background: url("/app/static/images/main_big.png") no-repeat center center;
+  background-size: cover;
+  height: 750px;
+}
+
+.headline-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.greetings {
+  font-size: 18px;
+  color: #ec5242;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.headline-heading {
+  padding: 16px;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: #ec5242;
+}
+
+.headline-para {
+  max-width: 550px;
+  height: auto;
+  line-height: 30px;
+  border: 3px solid #fff;
+  background-color: #f7f7f7;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 3px;
+}
+
+.headline-para > p {
+  padding: 10px;
+  padding-top: 20px;
+  max-width: 100%;
+  font-size: 15px;
+  font-weight: bold;
+  color: #272a31;
+}
+
+.headline-date {
+  margin-bottom: 100px;
+  padding: 0 10px;
+}
+
+.headline-date > h2 {
+  line-height: 30px;
+  font-size: 4vw;
+  padding-top: 50px;
+  color: #272a31;
+  margin-bottom: 30px;
+}
+
+.headline-date h5 {
+  font-size: 1.3rem;
+  padding-top: 10px;
+  color: #272a31;
+}
+
+/*
+###############################################################################
+#											SPEAKERS SECTION																				#
+##############################################################################
+*/
+.program-section {
+  background-image:
+    linear-gradient(
+      283deg,
+      rgb(228 228 228 / 4%) 0%,
+      rgb(228 228 228 / 4%) 30%,
+      rgb(130 130 130 / 4%) 30%,
+      rgb(130 130 130 / 4%) 49%,
+      rgb(31 31 31 / 4%) 49%,
+      rgb(31 31 31 / 4%) 100%
+    ),
+    linear-gradient(
+      297deg,
+      rgb(228 228 228 / 4%) 0%,
+      rgb(228 228 228 / 4%) 20%,
+      rgb(130 130 130 / 4%) 20%,
+      rgb(130 130 130 / 4%) 60%,
+      rgb(31 31 31 / 4%) 60%,
+      rgb(31 31 31 / 4%) 100%
+    ),
+    linear-gradient(
+      242deg,
+      rgb(228 228 228 / 4%) 0%,
+      rgb(228 228 228 / 4%) 29%,
+      rgb(130 130 130 / 4%) 29%,
+      rgb(130 130 130 / 4%) 48%,
+      rgb(31 31 31 / 4%) 48%,
+      rgb(31 31 31 / 4%) 100%
+    ),
+    linear-gradient(90deg, rgb(0 0 0 / 91%), rgb(0 0 0 / 91%));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  height: 480px;
+  width: 100%;
+}
+
+#program-footer {
+  text-transform: uppercase;
+  text-decoration: underline;
+  box-sizing: border-box;
+  padding: 30px;
+  color: #fff;
+}
+
+.program-container {
+  display: flex;
+  color: wheat;
+  max-width: 900px;
+  padding: 5px;
+}
+
+.programs {
+  margin: 3px;
+  text-align: center;
+  width: 100%;
+}
+
+.programs:hover {
+  border: 1px solid #d3d3d3;
+}
+
+.podium {
+  padding: 10px;
+  align-items: center;
+  background-image:
+    radial-gradient(
+      circle at 99% 33%,
+      hsl(235deg 0% 48% / 3%) 0%,
+      hsl(235deg 0% 48% / 3%) 37%,
+      transparent 37%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 46% 16%,
+      hsl(235deg 0% 48% / 3%) 0%,
+      hsl(235deg 0% 48% / 3%) 43%,
+      transparent 43%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 99% 25%,
+      hsl(235deg 0% 48% / 3%) 0%,
+      hsl(235deg 0% 48% / 3%) 22%,
+      transparent 22%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 57% 88%,
+      hsl(235deg 0% 48% / 3%) 0%,
+      hsl(235deg 0% 48% / 3%) 86%,
+      transparent 86%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 82% 78%,
+      hsl(235deg 0% 48% / 3%) 0%,
+      hsl(235deg 0% 48% / 3%) 22%,
+      transparent 22%,
+      transparent 100%
+    ),
+    linear-gradient(
+      90deg,
+      rgb(40 37 37),
+      rgb(40 37 37)
+    );
+  height: 100%;
+}
+
+.podium > h2 {
+  color: #ec5242;
+  font-size: 18px;
+  padding: 7px;
+}
+
+.podium > p {
+  padding: 10px 0;
+  font-size: 15px;
+  color: white;
+}
+
+/*
+####################################################################################
+# +++++++++++++++++++++++++++++++++++SPEAKERS SECTION+++++++++++++++++++++++++++++ #
+####################################################################################
+*/
+.speakers-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.speaker-container {
+  max-width: 500px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.speaker-text {
+  width: 60%;
+  margin: 10px;
+}
+
+.para {
+  padding: 0 10px;
+  font-size: 0.8rem;
+  color: #ec5242;
+  font-style: italic;
+}
+
+.bio {
+  padding: 0 10px;
+  font-size: 1rem;
+}
+
+.name {
+  padding: 3px 10px;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.speaker-heading {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 1.5vw;
+  padding: 20px;
+  color: #272a31;
+}
+
+.orange-line {
+  width: 35px;
+  height: 3px;
+  border-radius: 50px;
+  background-color: #ec5242;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+/*
+##########################################################################
+#+++++++++++++++++++++++++++++FOOTER SECTION+++++++++++++++++++++++++++++#
+##########################################################################
+*/
+
+.footer-upper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #272a31;
+  flex-direction: column;
+  min-height: 150px;
+}
+
+.footer-patners {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 30px;
+}
+
+.footer-lower {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 150px;
+}
+
+.footer-logo {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  color: #272a31;
+  fill: #272a31;
+}
+
+.lower-footer-para {
+  width: 450px;
+  font-size: 15px;
+  padding: 20px;
+  color: #272a31;
+  font-weight: 900;
+}
+
+.lower-footer-title {
+  font-size: 13px;
+  color: #272a31;
+  line-height: 10px;
+}
+
+#mozilla {
+  font-weight: 1000;
+  font-size: 32px;
+  color: #d3d3d3;
+}
+
+#google {
+  font-size: 32px;
+  color: #999996;
+}
+
+#naver {
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 1000;
+  color: #999996;
+}
+
+#dmk {
+  font-size: 32px;
+  font-weight: 800;
+  color: #999996;
+}
+
+#airbnb {
+  font-size: 32px;
+  color: #999996;
+  line-height: 20px;
+  padding: 10px;
+}
+
+#footer-title {
+  font-size: 28px;
+  color: #999996;
+}
+
+@media screen and (min-width: 768px) {
+  .see-more-btn,
+  .mobile-nav {
+    display: none;
+  }
+}
+
+/*
+##########################################################################
+#+++++++++++++++++++++++++++++++MOBILE VERSION+++++++++++++++++++++++++++#
+##########################################################################
+*/
+
+@media screen and (max-width: 768px) {
+  /*
+	##########################################################
+	#---------------Mobile Navigation menu-------------------#
+	#########################################################
+	*/
+  .upper-nav,
+  .lower-nav {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: flex;
+    position: absolute;
+  }
+
+  .humberger-menu {
+    margin-right: auto;
+    padding: 50px;
+    cursor: pointer;
+    z-index: 100;
+  }
+
+  .menu-link-bar {
+    width: 45px;
+    height: 5px;
+    margin: 6px 0;
+    background: #000;
+    display: flex;
+    transition: 0.4s;
+  }
+
+  .humberger-menu.change .menu-link-bar.first {
+    transform: translate(0, 11px) rotate(-45deg);
+    z-index: 3;
+    background-color: #fdfdf7;
+  }
+
+  .humberger-menu.change .menu-link-bar.second {
+    opacity: 0;
+  }
+
+  .humberger-menu.change .menu-link-bar.third {
+    transform: translate(0, -9px) rotate(45deg);
+    z-index: 3;
+    background-color: #fdfdf7;
+  }
+
+  .lower-menu-mobile {
+    display: none;
+  }
+
+  .show-menu {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    background-color: rgb(0 0 0);
+    background-color: rgb(0 0 0 / 90%);
+    overflow-x: hidden;
+    transition: 0.5s;
+    backdrop-filter: blur(6px);
+  }
+
+  .lower-nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    padding-top: 50px;
+  }
+
+  .menu-link-lower {
+    color: #818181;
+    font-size: 5vw;
+    font-weight: 700;
+    margin: 20px;
+  }
+
+  /*
+	##########################################################
+	#-----------------Mobile Headline Section Start----------#
+	##########################################################
+	*/
+  .headline-section {
+    background: url("/app/static/images/mobile_intro_bg.png") no-repeat center center;
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+  }
+
+  .headline-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 180px;
+  }
+
+  .greetings {
+    padding: 0 40px;
+  }
+
+  .headline-heading {
+    padding: 0 40px;
+    font-size: 32px;
+  }
+
+  .headline-para {
+    margin-left: 40px;
+  }
+
+  .headline-date {
+    padding: 0 40px;
+  }
+
+  .headline-para > p {
+    font-size: 3vw;
+  }
+
+  /*
+	##########################################################
+	#-----------------Mobile Speaker Section----------------#
+	##########################################################
+	*/
+  .speaker-heading {
+    margin-bottom: 50px;
+    padding: 20px;
+    font-size: 2.5vw;
+  }
+
+  .orange-line {
+    width: 35px;
+    margin: 0 auto;
+    margin-top: 13px;
+  }
+
+  .name,
+  .para {
+    font-size: 1.7vw;
+  }
+
+  .bio {
+    font-size: 1.8vw;
+  }
+
+  .see-more-btn {
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    border: 1px solid #d3d3d3;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #272a31;
+  }
+
+  .fa-chevron-down {
+    color: #ec5242;
+  }
+
+  /*
+	##########################################################
+	#-----------------Mobile Program Section----------------#
+	##########################################################
+	*/
+  .program-section {
+    min-height: 900px;
+  }
+
+  .program-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    height: auto;
+    border: none;
+    padding: 20px;
+  }
+
+  .podium {
+    display: flex;
+    align-items: center;
+    padding: 3px 20px;
+    margin-right: 0 auto;
+    height: 100px;
+  }
+
+  .podium > p {
+    text-align: start;
+    font-size: 2.3vw;
+    width: 65%;
+    margin-left: auto;
+  }
+
+  .podium > h2 {
+    font-size: 2.5vw;
+    text-align: start;
+  }
+
+  .programs {
+    border: none;
+    height: 100px;
+    padding: 0;
+  }
+
+  .lower-title {
+    visibility: hidden;
+    position: relative;
+  }
+
+  .lower-title::after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "Join Nairobi DevOPS Meetup 2022";
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 28px 7px;
+    background-color: #ec5242;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 4px;
+  }
+
+  #program-footer {
+    text-transform: uppercase;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: #ec5242;
+    margin: 20px;
+  }
+
+  /*
+		##########################################################
+		#-----------------Mobile Program Section----------------#
+		##########################################################
+	*/
+}
