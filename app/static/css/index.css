@@ -99,7 +99,7 @@ nav {
 ##################################################################################
 */
 .headline-section {
-  background: url("/app/static/images/main_big.png") no-repeat center center;
+  background: url("app/static/images/main_big.png") no-repeat center center;
   background-size: cover;
   height: 750px;
 }
